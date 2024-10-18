@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuickCarSpecs - Login</title>
+    <link rel="stylesheet" href="web_login.css">
+    
+</head>
+<body>
+    <div class="container">
+        <img src="https://img.goodfon.com/original/1920x1080/f/2a/ferrari-f430-bugatti-veyron.jpg?d=1" alt="Background Image" class="background-image">
+        <div class="login-form">
+            <h2>Login to SuperCarSpecs</h2>
+            <form id="login-form">
+                <label for="username">Username:</label>
+                <i class="icon fa fa-user"></i>
+                <input type="text" id="username" name="username" required><br><br>
+                <label for="password">Password:</label>
+                <i class="icon fa fa-lock"></i>
+                <input type="password" id="password" name="password" required><br><br>
+                <label for="captcha-input">CAPTCHA:</label>
+                <input type="text" id="captcha-input" name="captcha-input" required>
+                <span id="captcha-code"></span><br><br>
+                <input type="submit" value="Login">
+            </form>
+            <p>Don't have an account? <a href="register.html">Register now</a></p>
+        </div>
+    </div>
+
+    <script src="web_login.js"></script>
+</body>
+</html>
